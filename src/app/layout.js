@@ -1,6 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import DevelopedBy from "@/components/DevelopedBy";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -26,7 +28,29 @@ export default function RootLayout({ children }) {
             {children}
           </div>
         </main>
+
+        <Footer />
+        <DevelopedBy />
       </body>
     </html >
   );
 }
+
+
+// id: رقم تعريفي داخلي فريد لليخت داخل النظام.مهم للفرز والتتبع.
+//   slug: اسم مختصر صديق للروابط، بيتستخدم غالبا في رابط صفحة اليخت مثل yacht / armonia - 38.
+// name: الاسم التجاري أو المعروض لليخت في الواجهة.
+//   image: مسار صورة اليخت من مجلد الصور العامة.
+//     location: المارينا أو المكان الأساسي اللي اليخت متاح منه.
+//       pricePerDay: سعر الإيجار لليوم الكامل.
+//         pricePerHour: سعر الإيجار بالساعة.
+//           guests: أقصى عدد ضيوف مسموح بيهم على اليخت.
+//             cabins: عدد الكبائن المتاحة داخل اليخت.
+//               crew: عدد أفراد الطاقم اللي بيخدموا على اليخت.
+//                 lengthFt: طول اليخت بالقدم، وده بيدي فكرة عن الحجم.
+//                   speedKnots: السرعة بالعقدة البحرية، وده مؤشر الأداء في البحر.
+//                     fuelIncluded: هل الوقود داخل في السعر ولا لأ.
+//                       rating: تقييم العملاء لليخت(عادة من 5).
+//                         trips: عدد الرحلات اللي اتعملت قبل كده، مؤشر خبرة وشعبية.
+//                           description: وصف تسويقي مختصر لميزة وتجربة اليخت.
+//                             features: قائمة بالمزايا والخدمات المتوفرة على اليخت(معدات، رفاهيات، خدمات).

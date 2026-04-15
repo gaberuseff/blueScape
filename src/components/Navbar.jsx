@@ -1,10 +1,8 @@
-import {SimpleHeader} from "./simple-header";
+import { SimpleHeader } from "./ui/simple-header";
 
 function Navbar() {
   return (
-    <div>
       <SimpleHeader />
-    </div>
   );
 }
 
