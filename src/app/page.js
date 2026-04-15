@@ -1,7 +1,12 @@
+import Hero from "@/components/Hero"
+import ItemsCarousel from "@/components/ItemsCarousel"
+
+
 function page() {
   return (
     <div>
-      dasdsa
+      <Hero />
+      <ItemsCarousel />
     </div>
   )
 }
