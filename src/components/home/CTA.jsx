@@ -2,13 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import {ArrowUpRight} from "lucide-react";
 
-import MaxWidthWrapper from "./MaxWidthWrapper";
-import {Button} from "./ui/button";
+import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import {Button} from "@/components/ui/button";
 
 function CTA() {
   return (
-    <section className="py-10 md:py-16">
-      <MaxWidthWrapper>
+    <section className="py-14 md:py-32">
+      <MaxWidthWrapper size="xl">
         <div className="relative isolate overflow-hidden rounded-3xl">
           <Image
             src="/images/yacht-2.webp"

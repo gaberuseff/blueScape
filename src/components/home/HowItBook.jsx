@@ -1,8 +1,8 @@
 import Link from "next/link";
 import {ArrowRight, CheckCircle2} from "lucide-react";
 
-import MaxWidthWrapper from "./MaxWidthWrapper";
-import {Button} from "./ui/button";
+import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import {Button} from "@/components/ui/button";
 
 const steps = [
   {
@@ -49,7 +49,7 @@ const steps = [
 
 function HowItBook() {
   return (
-    <section className="relative overflow-hidden py-20 md:py-24">
+    <section className="section_secondary py-14 md:py-32">
       <MaxWidthWrapper>
         <div className="relative">
           <div className="flex flex-col gap-6 border-b border-border/80 pb-7 md:flex-row md:items-end md:justify-between">

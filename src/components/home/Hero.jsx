@@ -1,13 +1,13 @@
 import Image from "next/image";
-import {Button} from "./ui/button";
+import {Button} from "@/components/ui/button";
 import Link from "next/link";
 
 function Hero() {
   return (
-    <section className="m-6">
-      <div className="relative isolate overflow-hidden rounded-3xl min-h-[82vh]">
+    <section>
+      <div className="relative isolate overflow-hidden min-h-[82vh]">
         <Image
-          src="/images/yacht-1.webp"
+          src="/images/hero-2.webp"
           alt="Luxury yacht on the sea"
           fill
           priority

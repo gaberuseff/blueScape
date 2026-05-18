@@ -145,7 +145,7 @@ function CarouselItem({
 function CarouselPrevious({
   className,
   variant = "outline",
-  size = "icon-lg",
+  size = "icon-sm",
   ...props
 }) {
   const { orientation, scrollPrev, canScrollPrev } = useCarousel()
@@ -170,7 +170,7 @@ function CarouselPrevious({
 function CarouselNext({
   className,
   variant = "outline",
-  size = "icon-lg",
+  size = "icon-sm",
   ...props
 }) {
   const { orientation, scrollNext, canScrollNext } = useCarousel()

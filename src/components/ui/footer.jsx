@@ -34,11 +34,11 @@ export function Footer({logo, brandName, socialLinks, mainLinks, copyright}) {
             <ul className="list-none flex flex-wrap -my-1 -mx-2 lg:justify-end">
               {mainLinks.map((link, i) => (
                 <li key={i} className="my-1 mx-2 shrink-0">
-                  <a
+                  <Link
                     href={link.href}
                     className="text-sm text-primary underline-offset-4 hover:underline">
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

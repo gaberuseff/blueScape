@@ -1,10 +1,10 @@
-import MaxWidthWrapper from "./MaxWidthWrapper";
+import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "./ui/accordion";
+} from "@/components/ui/accordion";
 
 const faqs = [
   {
@@ -41,7 +41,7 @@ const faqs = [
 
 function QA() {
   return (
-    <section className="py-20">
+    <section className="section_secondary py-14 md:py-32">
       <MaxWidthWrapper>
         <div className="max-w-2xl space-y-3">
           <span className="inline-flex items-center rounded-md border border-border/80 bg-background px-3 py-1 text-xs font-medium uppercase text-muted-foreground">

@@ -1,21 +1,20 @@
-import Gallery from "@/components/Gallery"
-import Hero from "@/components/Hero"
-import CTA from "@/components/CTA"
-import HowItBook from "@/components/HowItBook"
-import ItemsCarousel from "@/components/ItemsCarousel"
-import QA from "@/components/QA"
-
+import CTA from "@/components/home/CTA"
+import Gallery from "@/components/home/Gallery"
+import Hero from "@/components/home/Hero"
+import HowItBook from "@/components/home/HowItBook"
+import QA from "@/components/home/QA"
+import ItemsCarousel from "@/features/yachts/ItemsCarousel"
 
 function page() {
   return (
-    <div>
+    <>
       <Hero />
       <ItemsCarousel />
       <HowItBook />
       <CTA />
       <QA />
       <Gallery />
-    </div>
+    </>
   )
 }
 

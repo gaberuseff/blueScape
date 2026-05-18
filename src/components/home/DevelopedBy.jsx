@@ -1,6 +1,6 @@
 function DevelopedBy() {
   return (
-    <div className="w-full text-center text-sm text-muted-foreground py-4">
+    <div className="w-full text-center text-sm text-muted-foreground py-4 border-t">
       Developed by{" "}
       <a
         target="_blank"

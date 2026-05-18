@@ -1,9 +1,7 @@
-import { SimpleHeader } from "./ui/simple-header";
+import {SimpleHeader} from "@/components/ui/simple-header";
 
 function Navbar() {
-  return (
-      <SimpleHeader />
-  );
+  return <SimpleHeader />;
 }
 
 export default Navbar;

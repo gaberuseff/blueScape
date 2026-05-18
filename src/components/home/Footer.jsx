@@ -1,22 +1,22 @@
+import {Footer as UiFooter} from "@/components/ui/footer";
 import {Waves} from "lucide-react";
-import {Footer as UiFooter} from "./ui/footer";
 
 function Footer() {
   return (
-    <div className="w-full">
+    <div>
       <UiFooter
         logo={<Waves />}
         brandName="Blue Escape"
         socialLinks={[
           {
-            // icon: <RiTwitterFill className="h-5 w-5" />,
-            href: "https://twitter.com",
-            label: "Twitter",
+            // icon: InstagramIcon,
+            href: "https://www.instagram.com/gaberuseff",
+            label: "Instagram",
           },
           {
-            // icon: <RiGithubFill className="h-5 w-5" />,
-            href: "https://github.com",
-            label: "GitHub",
+            // icon: FacebookIcon,
+            href: "https://www.facebook.com/gaberuseff",
+            label: "Facebook",
           },
         ]}
         mainLinks={[

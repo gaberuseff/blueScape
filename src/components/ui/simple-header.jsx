@@ -27,7 +27,7 @@ export function SimpleHeader() {
 
   return (
     <header className="bg-background/95 supports-[backdrop-filter]:bg-background/80 sticky top-0 z-50 w-full border-b backdrop-blur-lg">
-      <nav className="mx-auto flex h-14 w-full items-center justify-between px-4 sm:px-12">
+      <nav className="mx-auto flex h-16 w-full items-center justify-between px-4 sm:px-12">
         <Link href="/" className="flex items-center gap-2">
           <Waves />
           <p className="font-mono text-lg font-bold">
