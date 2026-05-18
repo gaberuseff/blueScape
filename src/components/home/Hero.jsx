@@ -7,7 +7,7 @@ function Hero() {
     <section>
       <div className="relative isolate overflow-hidden min-h-[82vh]">
         <Image
-          src="/images/hero-2.webp"
+          src="/hero-2.webp"
           alt="Luxury yacht on the sea"
           fill
           priority

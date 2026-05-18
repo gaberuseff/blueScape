@@ -11,7 +11,7 @@ function CTA() {
       <MaxWidthWrapper size="xl">
         <div className="relative isolate overflow-hidden rounded-3xl">
           <Image
-            src="/images/yacht-2.webp"
+            src="/yachts/yacht-2.webp"
             alt="Luxury yacht cruising in the Mediterranean"
             fill
             sizes="100vw"
